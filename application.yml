@@ -5,7 +5,5 @@ spring:
   username: ${STAFF_DB_USER_NAME:root}
   password: ${STAFF_DB_USER_PASSWORD:root}
  
- config:
-    activate:
-      on-profile:
-      - dev
+ application:
+  name: Config-Default
