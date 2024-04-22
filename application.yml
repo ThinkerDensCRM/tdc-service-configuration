@@ -1,4 +1,6 @@
-spring: 
+spring:
+ profiles:
+  active: dev
  datasource: 
   url: jdbc:mysql://${STAFF_DB_HOST:localhost}:${STAFF_DB_PORT:3306}/${STAFF_DB:staff_management_module}
   driver-class-name: com.mysql.cj.jdbc.Driver
